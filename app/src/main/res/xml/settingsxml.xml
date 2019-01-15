@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListPreference
+        app:iconSpaceReserved="true"
+        android:icon="@drawable/ic_touch_app_black_24dp"
+        android:defaultValue="ON"
+        android:entries="@array/quick_copy"
+        android:entryValues="@array/quick_copy"
+        android:key="quick_copy"
+        android:title="Quick Copy Mode?"
+        android:summary="ON"
+        />
+
+</PreferenceScreen>
